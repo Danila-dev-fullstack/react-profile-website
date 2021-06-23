@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./about.styles.css";
-import Profile from "../../assets/img/profile/profile.png";
+import Profile from "../../assets/img/profile/profile.jpg";
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
 
@@ -21,8 +21,7 @@ const About = () => {
             </Col>
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
-                Hi. I am <strong>&nbsp;Keith Birch</strong>
-                <p>A Program Manager who supports ethical and socially conscious companies and organizations become game changers by helping them support growth and increase marketshare . Helping companies and organizations who do good, do better, through Project Management, Change Management and Process Improvement consultancy. I get things done!</p>
+                <p>Detail oriented, motivated, Project Manager with over 17 years’ experience managing various projects with a special emphasis on Infrastructure projects for Health Care. A proven leader with experiences as a Project Manager in Healthcare, Banking and Hospitality, seeking to leverage my experience as a Project Manager with a leader in Healthcare. A critical thinker, with an ability to communicate at various levels, gather requirements, lead diverse teams, uses root cause analysis process, driving resolution to complex technical/business problems and working with a global team with geographically distributed colleagues are some of the experiences I will bring to the table.     </p>
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
                     <a href="https://drive.google.com/file/d/1Snbq3x4Itk_ZN4c8J96aNdp4SunXR08Y/view?usp=sharing" target="_blank" rel="noopener noreferrer">

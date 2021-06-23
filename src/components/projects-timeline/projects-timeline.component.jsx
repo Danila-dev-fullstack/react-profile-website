@@ -2,11 +2,11 @@ import React from "react";
 import { Timeline, Events, ImageEvent } from "@merc/react-timeline";
 
 // projects
-import L_ReactToDoList from "../../assets/img/projects/React_ToDo_List.webp";
-import L_MernTipCalc from "../../assets/img/projects/mern_tip_calc.webp";
-import L_GetGitHubInfo from "../../assets/img/projects/get_github_info.webp";
-import L_SmartBrain from "../../assets/img/projects/brain.webp";
-import L_RoboFriends from "../../assets/img/projects/Robofriends.webp";
+import L_UCLA from "../../assets/img/projects/UCLA health.jpg";
+import L_unionbank from "../../assets/img/projects/unionband.jpg";
+import L_DINE from "../../assets/img/projects/DINE.png";
+import L_Molina from "../../assets/img/projects/Molina.png";
+import L_Darden from "../../assets/img/projects/Darden.png";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 
@@ -24,9 +24,9 @@ const TimeLine = () => {
         <ImageEvent
             date="Jan 2021 - Present"
             className="text-center"
-            text="Project Manager"
-            src={L_ReactToDoList}
-            alt="React ToDo App"
+            text="IT Project Manager"
+            src={L_UCLA}
+            alt=""
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -42,17 +42,18 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        IT Project Manager in the Office of Health Informatics & Analytics.
+                      <strong>UCLA Healthcare, Los Angeles, CA </strong> <br/>
+                      An IT Project Manager who is leading, directing and executing projects for the leading hospital in Los Angeles and ranked sixth in the entire USA. My focus of projects is in the Office of Health Informatics and Analytics. Working on infrastructure and Data Analytic projects. 
+
                         <hr />
                         <ul className="list-styles pt-1">
-                          <li>Power BI Implementation</li>
-                          <li>Flow-Power Apps</li>
-                          <li>Collibra Implementation</li>
-                          <li>Mongo DB</li>
-                          <li>Accuity</li>
-                          <li>MuleSoft Upgrdae</li>
-                          <li>Azure Migration</li>
+                          <li>Implementing Power BI to the enterprise to harness the cost saving efficiency and using technology for a high ROI.</li>
+                          <li>Upgrade the Collibra Platform to the newest Data Governance, to establish a shared business language which will be scalable.</li>
+                          <li>Mule Soft Upgrade, as a part of the Collibra Platform Upgrade, we are simultaneously upgrading Mule Soft with the latest version.</li>
+                          <li>Azure Migration, for Data Warehousing.</li>
                           <li>Clarity Server Upgrade</li>
+                          <li>Infrastructure procurement</li>
+                          <li>Risk Assessment</li>
                         </ul>
                         <hr />
                       </Card.Body>
@@ -69,8 +70,8 @@ const TimeLine = () => {
             date="Nov 2019 - Mar 2020"
             className="text-center"
             text="Change Project Manager"
-            src={L_MernTipCalc}
-            alt="MERN Tip Calculator"
+            src={L_unionbank}
+            alt=""
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -86,7 +87,8 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        Used a structured ADKAR Analysis model approach to effectively drive organizational success. Responsible for leading the project including Business Analysis/Requirements Gathering to remediate vulnerabilities for approximately 15678 devices worldwide, 73 Software Packages and 73467 vulnerabilities. As the Change Manager I worked as a coach for senior leaders and executives in helping them fulfill the role of change sponsor. I created & implemented change management strategies and plans that maximized employee adoption and usage, which minimized resistance. This led to increased benefit realization, value creation, ROI and achieved the desired results and outcomes on a global change management project.
+                        <strong>Union Bank. Monterey Park, CA </strong><br/>
+                      Responsible for handling a critical Matter Requiring Attention (MRA) for a large International Bank. Used a structured ADKAR Analysis model approach to effectively drive organizational success. Responsible for leading the project including Business Analysis/Requirements Gathering to remediate vulnerabilities for approximately 15678 devices worldwide, 73 Software Packages and 73467 vulnerabilities. As the Change Manager I worked as a coach for senior leaders and executives in helping them fulfill the role of change sponsor. I created & implemented change management strategies and plans that maximized employee adoption and usage, which minimized resistance. This led to increased benefit realization, value creation, ROI and achieved the desired results and outcomes on a global change management project.
                         <hr />
                         <ul className="list-styles pt-1">
                           <li>Created an ADKAR Analysis model to guide, communicate and coach the stakeholders.</li>
@@ -113,8 +115,8 @@ const TimeLine = () => {
             date="May 2019 - Aug 2019"
             className="text-center"
             text="International IT Project Manager"
-            src={L_GetGitHubInfo}
-            alt="Get GitHub Info"
+            src={L_DINE}
+            alt=""
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -130,7 +132,8 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        Hired to standardize and streamline international New Restaurant Openings for Dine Brands Global, Inc worldwide expansion. This opening was used as the benchmark for all future international openings. This standardization allowed the company better analytics, sales forecasting and supply chain control.
+                        <strong>Dine Brands Global, Inc.  Glendale, CA</strong><br/>
+                      Hired to standardize and streamline international New Restaurant Openings for Dine Brands Global, Inc worldwide expansion. This opening in Ecuador was used as the benchmark for all future international openings.
                         <hr />
                         <ul className="list-styles pt-1">
                           <li>Selected Oracle as the Hardware Supplier as well as used their Enterprise Menu Server, which we spun up on our own AWS This combination helped in standardizing the menu management, hardware and better data analytics.</li>
@@ -152,8 +155,8 @@ const TimeLine = () => {
             date="Jul 2013 - May 2019"
             className="text-center"
             text="IT Project Manager"
-            src={L_SmartBrain}
-            alt="Smart Brain Face Detect"
+            src={L_Molina}
+            alt=""
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -169,6 +172,7 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
+                        <strong>Molina Healthcare, Inc. Long Beach, CA</strong><br/>
                         IT PM assigned to the Enterprise Infrastructure Services team, provided project management and leadership for all IT infrastructure. Drove infrastructure projects, integration, new health plans, infrastructure upgrades, relocations, site expansions.
                         <hr />
                         <ul className="list-styles pt-1">
@@ -198,8 +202,8 @@ const TimeLine = () => {
             date="Jan 1994 - Jan 2012"
             className="text-center"
             text="Project Manager"
-            src={L_RoboFriends}
-            alt="Robo Friends"
+            src={L_Darden}
+            alt=""
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -215,6 +219,7 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
+                      <strong>Darden, Inc. Orlando, FL</strong><br/>
                         <ul className="list-styles pt-1">
                           <li>Coordinated the implementation of 9 IT Upgrades including hardware and software installation with a total budget of $775,000.</li>
                           <li>Coordinated with numerous vendors/contractors and stakeholders to execute a seamless IT instillation experience, VoiP(Voice over Internet Protocol).</li>
