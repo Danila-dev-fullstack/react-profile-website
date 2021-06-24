@@ -13,7 +13,7 @@ const ContactForm = () => {
         <Row>
           <Col className="d-flex justify-content-center flex-wrap">
             <div className="m-2">
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="KeithBirch@outlook.com" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline-danger" title="My Email">
                   <i className="fas fa-envelope-square"></i> Email Me
                 </Button>
@@ -23,27 +23,6 @@ const ContactForm = () => {
               <a href="https://www.linkedin.com/in/keithbirchpm/" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline-primary" title="Visit my LinkenIn">
                   <i className="fab fa-linkedin"></i> LinkedIn
-                </Button>
-              </a>
-            </div>
-            <div className="m-2">
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <Button id="youtube-btn" variant="outline-info" title="My Youtube">
-                <i class="fab fa-youtube"></i> Youtube
-                </Button>
-              </a>
-            </div>
-            <div className="m-2">
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <Button variant="outline-info" title="Tweets are welcomed!">
-                  <i className="fab fa-twitter"></i> Twitter
-                </Button>
-              </a>
-            </div>
-            <div className="m-2">
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <Button variant="outline-primary" title="Say hello on FB">
-                  <i className="fab fa-facebook-square"></i> FaceBook
                 </Button>
               </a>
             </div>

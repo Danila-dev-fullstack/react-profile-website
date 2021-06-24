@@ -24,7 +24,7 @@ const About = () => {
                 <p>Detail oriented, motivated, Project Manager with over 17 years’ experience managing various projects with a special emphasis on Infrastructure projects for Health Care. A proven leader with experiences as a Project Manager in Healthcare, Banking and Hospitality, seeking to leverage my experience as a Project Manager with a leader in Healthcare. A critical thinker, with an ability to communicate at various levels, gather requirements, lead diverse teams, uses root cause analysis process, driving resolution to complex technical/business problems and working with a global team with geographically distributed colleagues are some of the experiences I will bring to the table.     </p>
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
-                    <a href="https://drive.google.com/file/d/1Snbq3x4Itk_ZN4c8J96aNdp4SunXR08Y/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <a href="aaa" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-success">
                         My Resume
                       </Button>

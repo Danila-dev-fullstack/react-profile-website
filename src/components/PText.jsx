@@ -4,11 +4,11 @@ import styled from 'styled-components';
 const PStyle = styled.div`
   max-width: 600px;
   margin: 0 auto;
-  color: #ffffff;
-  font-size: 1.8rem;
-  line-height: 1.3em;
+  color: black;
+  font-size: 1.3rem;
+  line-height: 1.5em;
   @media only screen and (max-width: 768px) {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
 `;
 

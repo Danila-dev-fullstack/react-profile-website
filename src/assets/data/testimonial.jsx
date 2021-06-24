@@ -1,28 +1,20 @@
 const testimonials = [
     {
       id: 1,
-      name: 'Shaif Arfan',
-      title: 'CEO',
-      org: 'WEB CIFAR',
+      name: 'Mishirika Scott',
+      title: 'IT Systems Project Manager at California State University Los Angeles',
+      org: 'MBA-PM, PMP',
       desc:
-        'Ayan is a person of commitment. He is really good at what he is doing. I really like his work. Especially the unique point of view of designing.',
+        'Keith has been a resourceful advisor in best practices in managing projects, leading teams through the project life cycle, and creative responses to ethical dilemmas that come up during projects. We also collaborated on many PMI-LA Chapter projects successfully.',
     },
     {
       id: 2,
-      name: 'Fahim Elahe',
+      name: 'Jose L. Gonzalez',
       title: 'Co-founder',
-      org: 'Kreetive',
+      org: 'U.S.M.C. Veteran, EMBA',
       desc:
-        'Really amazing communication skills. Always understand what I am trying to achieve. Also, his work is really amazing. Do really high-quality work.',
-    },
-    {
-      id: 3,
-      name: 'Sayed',
-      title: 'Marketing Head',
-      org: 'Eleven Dawn',
-      desc:
-        'Really hard-working person. Deliver the work as promised. Planning to work more with this person.',
-    },
+        'A phenomenal speaker! I remember the first presentation Keith gave at a PMI satellite meeting in Alhambra. After the presentation I made sure to connect and get involved in PMI LA. Keith has a method of encouraging individuals to always continue to seek improvement.',
+    }
   ];
   export default testimonials;
   

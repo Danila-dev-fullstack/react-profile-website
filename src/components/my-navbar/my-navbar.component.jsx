@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import Logo from "../../assets/icons/logow.webp";
+import logo from "../../assets/img/profile/logo.png";
 import "./my-navbar.styles.css";
 
 const MyNavbar = () => {
@@ -15,7 +15,7 @@ const MyNavbar = () => {
       >
         <div>
           <Navbar.Brand href="#home">
-            <img className="logo" src={Logo} alt="" />
+          <img className="logo" src={logo} alt="logo" />
           </Navbar.Brand>
         </div>
         <div>
@@ -24,7 +24,7 @@ const MyNavbar = () => {
             <Nav className="mr-auto ">
               <Nav.Link href="#home">Home</Nav.Link>
               <Nav.Link href="#about">About</Nav.Link>
-              <Nav.Link href="#skills">Skills</Nav.Link>
+              <Nav.Link href="#testimonial">Testimonial</Nav.Link>
               <Nav.Link href="#experience">Education</Nav.Link>
               <Nav.Link href="#projects">Experience</Nav.Link>
               <Nav.Link href="#contact">Contact</Nav.Link>

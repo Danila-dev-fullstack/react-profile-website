@@ -31,10 +31,10 @@ const TestimonialSectionStyles = styled.div`
   .testimonial__name {
     margin-top: 2rem;
     font-family: 'Montserrat Bold';
-    font-size: 2.2rem;
+    font-size: 1.3rem;
   }
   .testimonial__title {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     margin-top: 0.3rem;
   }
   .arrows {
@@ -101,7 +101,7 @@ export default function TestimonialsSection() {
   }
 
   return (
-    <TestimonialSectionStyles>
+    <TestimonialSectionStyles id="testimonial">
       <div className="container">
         <SectionTitle
           subheading="see what our clients say about us"

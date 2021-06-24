@@ -4,9 +4,9 @@ import styled from 'styled-components';
 const SectionTitleStyle = styled.div`
   text-align: center;
   h2 {
-    font-size: 3em;
+    font-size: 2.5rem;
     font-weight: 500;
-    color: #ffffff;
+    color: #21252A;
     text-transform: uppercase;
   }
   @media only screen and (max-width: 768px) {
