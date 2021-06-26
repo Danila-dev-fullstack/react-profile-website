@@ -20,7 +20,7 @@ const TimeLine = () => {
       <h1 className="pt-3 text-center font-details-b pb-3">EXPERIENCE</h1>
       <Timeline>
         <Events>
-        {/* Project: Todo List With MUI */}
+        
         <ImageEvent
             date="Jan 2021 - Present"
             className="text-center"
