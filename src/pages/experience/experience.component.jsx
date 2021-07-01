@@ -7,8 +7,8 @@ import "./experience.styles.css";
 
 const Experience = () => {
   return (
-    <div id="experience">
-      <h1 className="pt-3 text-center font-details-b pb-3">EDUCATION</h1>
+    <div id="services">
+      <h1 className="pt-3 text-center font-details-b pb-3">SERVICES</h1>
       <Jumbotron className="jumbo-style">
         <Container>
           <Tilt options={{ max: 25 }}>
@@ -17,8 +17,9 @@ const Experience = () => {
                 <div>
                   <Card.Text className="text-center style">
                     <ul className="text-left">
-                      <li><strong>Western Governors University</strong> <br/>Bachelor in Science, Business Administration and Management, General</li>
-                      <li><strong>Les Roche International School of Hotel Management</strong> <br/>Diploma in Hotel & Tourism Management, Hotel, Motel and Restaurant Management</li>
+                      <li><strong>Website Development</strong> <br/>HTML5, CSS3, Bootstrap, JavaScript, React, Vue, Angular, Express, Node, PHP, Laravel, Python, Django, MySQL, MongoDB, jQuery, WebRTC, Jitsi, Redux, Jenkins, Payment Gateway, Git, AWS DevOps...</li>
+                      <li><strong>Mobile Application Development</strong> <br/>Hybrid and Native mobile application using React Native, Java, Swift, Kotlin...</li>
+                      <li><strong>Project Management</strong> <br/>Leading, Directing, and executing projects.</li>
                     </ul>
                   </Card.Text>
                 </div>
