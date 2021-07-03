@@ -13,7 +13,8 @@ import { Parallax } from "react-parallax";
 // import Particles from "react-particles-js";
 // import { particlesOptions } from "./particlesOptions";
 import FooterPanel from "./components/footer/footer.component";
-import Testimonial from "./components/testimonial/testimonial"
+// import Testimonial from "./components/testimonial/testimonial"
+import Certificate from "./components/certificate/certificate";
 
 import "./App.css";
 
@@ -47,7 +48,7 @@ const App = () => {
       <Container className="container-box rounded">
         <Slide bottom duration={500}>
           <hr />
-          <Testimonial />
+          <Certificate />
         </Slide>
       </Container>
       <div>
