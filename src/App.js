@@ -5,7 +5,7 @@ import MyTitleMessage from "./components/title-message/title-message.component";
 import About from "./pages/about/about.component";
 import Container from "react-bootstrap/Container";
 import TimeLine from "./components/projects-timeline/projects-timeline.component";
-import Experience from "./pages/experience/experience.component";
+// import Experience from "./pages/experience/experience.component";
 import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
 import ContactForm from "./pages/contact-form/contact-form.component";
@@ -15,6 +15,7 @@ import { Parallax } from "react-parallax";
 import FooterPanel from "./components/footer/footer.component";
 // import Testimonial from "./components/testimonial/testimonial"
 import Certificate from "./components/certificate/certificate";
+import Service from "./components/Services/service"
 
 import "./App.css";
 
@@ -51,7 +52,13 @@ const App = () => {
           <Certificate />
         </Slide>
       </Container>
-      <div>
+      <Container className="container-box rounded">
+        <Slide bottom duration={500}>
+          <hr />
+          <Service />
+        </Slide>
+      </Container>
+      {/* <div>
         <Container className="container-box rounded">
           <Fade duration={500}>
             <hr />
@@ -59,7 +66,7 @@ const App = () => {
             <Experience />
           </Fade>
         </Container>
-      </div>
+      </div> */}
       <Container className="container-box rounded">
         <Slide bottom duration={500}>
           <hr />
