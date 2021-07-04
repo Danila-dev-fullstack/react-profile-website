@@ -5,3 +5,19 @@
 h4 {
     justify-content: center;
 }
+@media only screen and (max-width: 1060px) {
+    h2 {
+        font-size: 30px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+  }
+@media only screen and (max-width: 920px) {
+    h2 {
+        font-size: 25px;
+    }
+    h4 {
+        font-size: 18px;
+    }
+  }

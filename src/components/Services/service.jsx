@@ -10,8 +10,8 @@ function service() {
         <div id="service" className="container">
             <h1 className="text-center mt-5 mb-5">SERVICES</h1>
             <div className="row flex mb-5">
-                <div className="col-6"><img className="pimage" src={pmanagement} alt="" /></div>
-                <div className="col-6 d-flex align-items-center justify-content-end row">
+                <div className="col-md-6 col-ms-12"><img className="pimage" src={pmanagement} alt="" /></div>
+                <div className="col-md-6 col-ms-12 d-flex align-items-center justify-content-end row">
                     <h2 className="col-12 d-flex justify-content-center">Project Management</h2>
                     <h4 className="col-12 pl-5">
                     <li>Successful projects are the result of:</li>
@@ -25,8 +25,8 @@ function service() {
                 </div>
             </div>
             <div className="row flex mb-5">
-                <div className="col-6"><img className="pimage" src={cmanagement} alt="" /></div>
-                <div className="col-6 d-flex align-items-center justify-content-end row">
+                <div className="col-md-6 col-ms-12"><img className="pimage" src={cmanagement} alt="" /></div>
+                <div className="col-md-6 col-ms-12 d-flex align-items-center justify-content-end row">
                     <h2 className="col-12 d-flex justify-content-center">Change Management</h2>
                     <h4 className="col-12 pl-5">
                     <li>Keith is passionate about helping clients solve complex challenges and supporting them through critical transformations.</li>
@@ -35,8 +35,8 @@ function service() {
                 </div>
             </div>
             <div className="row flex mb-5">
-                <div className="col-6"><img className="pimage" src={tc} alt="" /></div>
-                <div className="col-6 d-flex align-items-center justify-content-end row">
+                <div className="col-md-6 col-ms-12"><img className="pimage" src={tc} alt="" /></div>
+                <div className="col-md-6 col-ms-12 d-flex align-items-center justify-content-end row">
                     <h2 className="col-12 d-flex justify-content-center">Training and Coaching</h2>
                     <h4 className="col-12 pl-5">
                     <li>Get teams on the same page.</li>
@@ -46,8 +46,8 @@ function service() {
                 </div>
             </div>
             <div className="row flex mb-5">
-                <div className="col-6"><img className="pimage" src={npleadership} alt="" /></div>
-                <div className="col-6 d-flex align-items-center justify-content-end row">
+                <div className="col-md-6 col-ms-12"><img className="pimage" src={npleadership} alt="" /></div>
+                <div className="col-md-6 col-ms-12 d-flex align-items-center justify-content-end row">
                     <h2 className="col-12 d-flex justify-content-center">Non Profit Leadership</h2>
                     <h4 className="col-12 pl-5">
                     <li>Leading and understanding how non profits work needs someone who has lead numerous Non Profit organization, working with the voluteer base, donors, takes a different skill set.</li>
